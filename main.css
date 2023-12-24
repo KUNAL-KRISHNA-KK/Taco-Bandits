@@ -1,0 +1,55 @@
+/* importing fonts form google */
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+html {
+  font-size: 22px;
+}
+
+body {
+  text-align: center;
+  align-items: center;
+  background-color: #0c1821;
+  color: white;
+  min-height: 100vh;
+  max-width: 800px;
+  margin: 0 auto;
+
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+
+  text-transform: capitalize;
+  line-height: 1.5;
+  font-family: alkatra;
+  font-weight: 500;
+}
+
+th,
+td,
+caption {
+  border: 1px solid #333;
+  font-family: 'Courier New', Courier, monospace;
+  border-collapse: separate;
+  padding: 0.5rem;
+}
+
+table {
+  margin: auto;
+}
+
+li {
+  list-style: none;
+  padding: 1%;
+}
+
+a {
+  color: gray;
+  text-decoration: none;
+}
+
+a:hover {
+  color: dodgerblue;
+}
+
+#three {
+  padding: 1%;
+}
